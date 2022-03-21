@@ -25,10 +25,9 @@ pipeline {
            stage ('Deploy to prod') {
              steps {
                sh "cp **/target/*.war /home/ivan/programms/tomcat-prod/webapps"
-             }     
+             }
            }
          }
        }
     }
-} 
-  
+}
